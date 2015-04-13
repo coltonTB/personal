@@ -1,5 +1,5 @@
 body{
-  background: #F0F4F4
+  background: #FFF
 }
 
 *{
@@ -21,7 +21,7 @@ a{
 .navbar{
   padding: 75px 0 130px 0;
   text-transform: uppercase;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #DDD;
 }
 .navbar .nav-right{
   float: right;
@@ -57,8 +57,9 @@ ul.navbar li.navbar-link a{
   border-bottom: 2px solid transparent;
 }
 
-ul.navbar li.navbar-link a:hover{
-  border-color: white;
+ul.navbar li.navbar-link a:hover,
+ul.navbar li.navbar-link a.selected{
+  border-color: #DDD;
 }
 
 .coming-soon{
