@@ -36,5 +36,7 @@ app.get '/blog', (req, res) ->
   res.locals.test = 'hello'
   res.render 'index'
 
+
+
 app.listen 8080, (req, res) ->
   console.log('listening!')

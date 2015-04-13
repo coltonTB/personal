@@ -11,11 +11,19 @@ a{
   color: black;
 }
 
-.content{
+h1,h2,h3{
+  margin-top: 0;
+}
+
+.container{
   max-width: 900px;
   margin-right: auto;
   margin-left: auto;
   padding: 0px 85px 0 85px
+}
+
+.content{
+  margin-top: 80px;
 }
 
 .navbar{
@@ -66,4 +74,32 @@ ul.navbar li.navbar-link a.selected{
   font-size: 30px;
   text-align: center;
   padding-top: 80px;
+}
+
+.image-left{
+  float: left;
+  width: 30%;
+  height: 350px;
+  background-image: url("http://i.imgur.com/ZqmUCOg.jpg");
+  background-size: cover;
+}
+
+.image-left:hover{
+  background-image: url("http://i.imgur.com/rRvyN8x.jpg");
+}
+
+.image-left img{
+  width: 100%
+}
+
+.content-right{
+  float: right;
+  width:  69%;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+.content-right h1{
+  text-transform: uppercase;
+  font-weight: 100;
 }
