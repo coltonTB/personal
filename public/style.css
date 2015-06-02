@@ -65,9 +65,12 @@ ul.navbar li.navbar-link a{
   border-bottom: 2px solid transparent;
 }
 
-ul.navbar li.navbar-link a:hover,
 ul.navbar li.navbar-link a.selected{
   border-color: #DDD;
+}
+
+ul.navbar li.navbar-link a:hover{
+  border-color: #777;
 }
 
 .coming-soon{
@@ -82,10 +85,6 @@ ul.navbar li.navbar-link a.selected{
   height: 350px;
   background-image: url("http://i.imgur.com/ZqmUCOg.jpg");
   background-size: cover;
-}
-
-.image-left:hover{
-  background-image: url("http://i.imgur.com/rRvyN8x.jpg");
 }
 
 .image-left img{
