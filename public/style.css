@@ -10,6 +10,7 @@ body{
   max-width: 900px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 300px;
   padding: 0px 85px 0 85px
 }
 
@@ -39,6 +40,9 @@ ul.navbar li.navbar-brand a{
   letter-spacing: 20px;
   background: black;
   padding-left: 12px;
+  width: 425px;
+  height: 43px;
+  display: inline-block;
 }
 
 ul.navbar li.navbar-link{
