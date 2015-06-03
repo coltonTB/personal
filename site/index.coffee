@@ -1,5 +1,6 @@
 express = require('express')
 exphbs  = require('express-handlebars')
+cm = require '../cm.coffee'
 
 app = express()
 
@@ -24,14 +25,14 @@ app.use (req, res, next) ->
 app.use express.static './public'
 
 app.get '/', (req, res) ->
-  res.render 'index'
+  res.render 'index', content: cm('about.md')
 
 app.get '/projects', (req, res) ->
-  res.render 'index'
+  res.render 'projects', projects:
+    cm('projects').map (proj) -> {content: proj}
 
 app.get '/resume', (req, res) ->
-  res.locals.test = 'hello'
-  res.render 'index'
+  res.render 'resume', content: cm('resume.md')
 
 app.get '/blog', (req, res) ->
   res.locals.test = 'hello'
