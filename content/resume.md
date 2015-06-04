@@ -20,7 +20,9 @@ An open-source framework for building isomorphic javascript apps.
 
 
 ####[Bit-crx](https://github.com/coltonTB/bit-crx)
-A chrome extension that allows you to pay with bitcoin on supported e-commerce sites. 
+*client: Honey*
+
+A chrome extension that allows you to pay with bitcoin on supported e-commerce sites.
 
 *February - May 2014*
 
@@ -32,13 +34,13 @@ A chrome extension that allows you to pay with bitcoin on supported e-commerce s
 ####Honey
 Pasadena, CA
 
-Full-Stack Javascript Developer
+Full-Stack Developer
 
 *July 2013 - May 2015*
 
 1. As the company's first full-time engineer, I was instrumental in rewriting the original backend to support long-term growth
 1. I worked closely with the design team to critique and develop our product and deliver a great user experience
-1. I implemented a custom front-end javascript architecture that renders efficiently on mobile and SEOs well
+1. I implemented a custom front-end javascript architecture that rendered efficiently and SEOed well
 
 ####Kymanox
 Durham, NC
@@ -55,18 +57,22 @@ iOS Developer
 ####Duke Neurobiology
 Durham, NC
 
-Programmer
+Research Assistant / Programmer
 
 *Nov 2011 - May 2012*
 
-1. I wrote a unique user interface in Matlab that greatly improved the process of identifying and measuring the activity of individual cells in brain-scan videos
+1. I built a user interface in MATLAB that employed image analysis techniques to make the process of identifying and measuring individual brain cells much easier. I'm told the lab techs still use it to this day.
+1. Press: [Duke Forward](http://dukeforward.duke.edu/news/duke-neurobiologist-richard-mooney-reveals-some-surprising-parallels-betwee)
 
 
-####Duke Department Physics
+####Duke Department of Physics
 Durham, NC 
 
-Research Assistant
+Research Assistant / Programmer
 
 *May-July 2011*
 
-1. I wrote image analysis scripts in matlab and helped with setting up expirements with a high speed camera
+1. I wrote image analysis scripts in MATLAB that collected experimental data from (very) high-speed cameras
+1. Press: [Scientific American](http://www.scientificamerican.com/podcast/episode/granular-materials-could-thwart-missiles/), [io9](http://io9.com/new-missile-study-reveals-a-terrible-setback-in-fight-a-1697060546), [Popular Science](http://www.popsci.com/physics-proves-grainy-soil-good-stopping-missiles?dom=tw&src=SOC)
+
+

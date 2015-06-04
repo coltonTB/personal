@@ -5,7 +5,16 @@ em{
 
 a{
   text-decoration: none;
+  font-weight: 300;
   color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+strong{
+  font-weight: 500;
 }
 
 p{
@@ -35,6 +44,9 @@ h4{
   font-weight: 600;
   font-size: 1.2em;
   margin: 24px 0 3px 0;
+}
+h4>a{
+  font-weight: 600;
 }
 
 ol{
