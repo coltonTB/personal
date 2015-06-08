@@ -15,7 +15,14 @@ body{
 }
 
 .content{
-  margin-top: 80px;
+  position: relative;
+  max-width: 500px;
+  padding-right: 20px;
+}
+
+.content .project-nav{
+  position: absolute;
+  top: -70px;
 }
 
 .navbar{
@@ -85,10 +92,13 @@ ul.navbar li.navbar-link a:hover{
 
 .image-left{
   float: left;
-  width: 30%;
-  height: 350px;
+  width: 120px;
+  height: 120px;
   background-image: url("http://i.imgur.com/ZqmUCOg.jpg");
   background-size: cover;
+  background-size: 106%;
+  background-position-y: -9px;
+  background-position-x: 0px;
 }
 
 .image-left img{
@@ -107,11 +117,7 @@ ul.navbar li.navbar-link a:hover{
   font-weight: 100;
 }
 
-.resume{
-  max-width: 500px;
-  padding-right: 20px;
-}
-
+.resume{}
 
 .resume h4 a{
   position: relative;

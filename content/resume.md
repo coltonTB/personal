@@ -1,6 +1,6 @@
 ##Education
 
-####Duke University#### 
+####Duke University
 
 Computer Science (BA)
 

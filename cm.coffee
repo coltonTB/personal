@@ -2,8 +2,7 @@ fs = require 'fs'
 markdown = require('markdown').markdown
 handlebars = require('handlebars')
 
-process = (key) ->
-
+process = (key, opts) ->
   fstats = fs.lstatSync "./content/#{key}"
   if fstats.isDirectory()
     files = fs.readdirSync "./content/#{key}"
@@ -15,11 +14,13 @@ process = (key) ->
     throw new Error 'not a file or directory'
 
   return rawFiles.map (file) ->
+    if opts.summarize
+      file = file.split('\n\n')[0..2].join('\n\n')
     markdown.toHTML file
 
 
-module.exports = (key) ->
-  result = process(key)
+module.exports = (key, opts) ->
+  result = process(key, opts || {})
   if !result.length
     return ''
   else if result.length is 1

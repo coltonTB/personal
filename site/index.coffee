@@ -10,7 +10,7 @@ hbs = exphbs.create
   layoutsDir: './site/views/layouts'
   partialsDir: "./site/views/partials"
   helpers:
-    selected: (ctx, options) -> 
+    selected: (ctx) -> 
       if this.path is ctx then 'selected'
 
 app.engine '.hbs', hbs.engine
@@ -29,7 +29,12 @@ app.get '/', (req, res) ->
 
 app.get '/projects', (req, res) ->
   res.render 'projects', projects:
-    cm('projects').map (proj) -> {content: proj}
+    cm('projects', summarize:true).map (proj) ->
+      {content: proj}
+
+app.get '/projects/:id', (req, res) ->
+  res.render 'project',
+    content: cm("projects/#{req.params.id}.md")
 
 app.get '/resume', (req, res) ->
   res.render 'resume', content: cm('resume.md')
