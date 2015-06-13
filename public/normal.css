@@ -5,7 +5,7 @@ em{
 
 a{
   text-decoration: none;
-  font-weight: 300;
+  /*font-weight: 300;*/
   color: black;
 }
 
@@ -22,8 +22,9 @@ p{
 }
 
 h1{
-  font-weight: 100;
-  font-size: 2.6em;
+  font-weight: 500;
+  font-size: 2.2em;
+  margin-top: 40px;
 }
 
 h2{

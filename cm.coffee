@@ -1,6 +1,9 @@
 fs = require 'fs'
-markdown = require('markdown').markdown
+marked = require('marked')
 handlebars = require('handlebars')
+
+toHTML = (file) ->
+  marked(files)
 
 process = (key, opts) ->
   fstats = fs.lstatSync "./content/#{key}"
@@ -16,7 +19,7 @@ process = (key, opts) ->
   return rawFiles.map (file) ->
     if opts.summarize
       file = file.split('\n\n')[0..2].join('\n\n')
-    markdown.toHTML file
+    toHTML file
 
 
 module.exports = (key, opts) ->
@@ -27,3 +30,5 @@ module.exports = (key, opts) ->
     return result[0]
   else
     return result
+
+

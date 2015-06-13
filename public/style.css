@@ -25,12 +25,13 @@ body{
   top: -70px;
 }
 
-.navbar{
+ul.navbar{
   padding: 75px 0 130px 0;
   text-transform: uppercase;
   border-bottom: 2px solid #DDD;
 }
-.navbar .nav-right{
+
+ul.navbar .nav-right{
   float: right;
 }
 
@@ -84,40 +85,51 @@ ul.navbar li.navbar-link a:hover{
   border-color: #777;
 }
 
-.coming-soon{
-  font-size: 30px;
-  text-align: center;
-  padding-top: 80px;
+.header{
 }
 
-.image-left{
-  float: left;
-  width: 120px;
-  height: 120px;
-  background-image: url("http://i.imgur.com/ZqmUCOg.jpg");
-  background-size: cover;
-  background-size: 106%;
-  background-position-y: -9px;
-  background-position-x: 0px;
+.header h1{
+  display: inline-block;
+  margin: 0;
 }
 
-.image-left img{
-  width: 100%
-}
-
-.content-right{
-  float: right;
-  width:  69%;
-  padding: 0 50px;
-  box-sizing: border-box;
-}
-
-.content-right h1{
-  text-transform: uppercase;
+.header h1 span{
   font-weight: 100;
 }
 
-.resume{}
+.header .download a{
+  color: #888;
+  font-weight: 100;
+  margin: 0 2px;
+}
+
+.header .download a:hover{
+  color: black;
+  text-decoration: none;
+}
+
+.header .download{
+  margin-right: 15px;
+  height: 0;
+  position: relative;
+  font-size: 0.8em;
+  color: #888;
+  float: right;
+}
+
+.header .download:after{
+  content: '';
+  width: 18px;
+  height: 8px;
+  display: block;
+  position: absolute;
+  right: -15px;
+  top: 5px;
+  background-image: url('images/download.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
 
 .resume h4 a{
   position: relative;

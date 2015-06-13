@@ -10,8 +10,14 @@ hbs = exphbs.create
   layoutsDir: './site/views/layouts'
   partialsDir: "./site/views/partials"
   helpers:
-    selected: (ctx) -> 
-      if this.path is ctx then 'selected'
+    selected: (ctx, opts) ->
+      regex = new RegExp('^'+ctx+'(/.*)?$')
+      if regex.test(this.path) then 'selected'
+    fragment: (opts) ->
+      frags = this.path.split('/')
+      frags[frags.length-1]
+
+
 
 app.engine '.hbs', hbs.engine
 
@@ -25,7 +31,7 @@ app.use (req, res, next) ->
 app.use express.static './public'
 
 app.get '/', (req, res) ->
-  res.render 'index', content: cm('about.md')
+  res.render 'home', content: cm('home.md')
 
 app.get '/projects', (req, res) ->
   res.render 'projects', projects:

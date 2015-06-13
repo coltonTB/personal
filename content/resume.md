@@ -8,6 +8,7 @@ Physics (BA)
 
 *Class of 2013*
 
+
 ##Projects
 
 ####[Ice-js](https://github.com/coltonTB/ice-js)
@@ -29,6 +30,7 @@ A chrome extension that allows you to pay with bitcoin on supported e-commerce s
 1. Leverages an event-driven architecture for performance and security. 
 1. Built with Redis, Express, mySQL, and Backbone.js
 
+
 ##Job History
 
 ####Honey
@@ -42,6 +44,7 @@ Full-Stack Developer
 1. I worked closely with the design team to critique and develop our product and deliver a great user experience
 1. I implemented a custom front-end javascript architecture that rendered efficiently and SEOed well
 
+
 ####Kymanox
 Durham, NC
 
@@ -50,7 +53,6 @@ iOS Developer
 *May - August 2012*
 
 1. I piloted product development at a services-based company
-
 1. I built and released the company's first iPhone game, with a heavy emphasis on animation and user experience
 
 
