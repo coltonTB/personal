@@ -10,15 +10,28 @@ body{
   max-width: 900px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 300px;
-  padding: 0px 85px 0 85px
+  margin-bottom: 100px;
+  padding: 0px 85px 0 85px;
+  min-height: 650px;
+}
+
+.footer{
+  max-width: 900px;
+  border-top: 2px solid #DDD;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 40px 0;
+  text-align: center;
+  color: #bbb;
+  font-weight: 100;
 }
 
 .content{
   position: relative;
-  max-width: 500px;
+  max-width: 540px;
   padding-right: 20px;
 }
+
 
 .content .project-nav{
   position: absolute;
@@ -37,6 +50,7 @@ ul.navbar{
 
 ul.navbar .nav-right{
   float: right;
+  width: 225px;
 }
 
 ul.navbar li.navbar-brand{
@@ -81,8 +95,14 @@ ul.navbar a{
   text-decoration: none;
 }
 
-ul.navbar li.navbar-link a.selected{
-  border-color: #DDD;
+ul.navbar li.navbar-link.home a.selected{
+  border-color: rgb(63, 228, 0);
+}
+ul.navbar li.navbar-link.projects a.selected{
+  border-color: rgb(165, 3, 255);
+}
+ul.navbar li.navbar-link.resume a.selected{
+  border-color: rgb(0, 155, 255);
 }
 
 ul.navbar li.navbar-link a:hover{
@@ -134,6 +154,11 @@ ul.navbar li.navbar-link a:hover{
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: right;
+}
+
+.home p a img{
+  height: 15px;
+  margin-right: 15px;
 }
 
 .resume h1#colton-t-brown{

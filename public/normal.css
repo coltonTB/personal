@@ -19,6 +19,7 @@ strong{
 
 p{
   margin: 0.15em 0;
+  line-height: 1.5em;
 }
 
 h1{
@@ -36,9 +37,8 @@ h2{
 
 h3{
   font-weight: 300;
-  font-size: 1.5em;
-  margin: 1em 0 0.1em 0;
-  line-height: 1em; 
+  font-size: 1.3em;
+  margin: 1em 0 1em 0;
 }
 
 h4{
