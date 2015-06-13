@@ -25,6 +25,10 @@ body{
   top: -70px;
 }
 
+blockquote{
+  margin: 0;
+}
+
 ul.navbar{
   padding: 75px 0 130px 0;
   text-transform: uppercase;
@@ -115,6 +119,7 @@ ul.navbar li.navbar-link a:hover{
   font-size: 0.8em;
   color: #888;
   float: right;
+  z-index: 100;
 }
 
 .header .download:after{

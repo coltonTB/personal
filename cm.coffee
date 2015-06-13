@@ -3,7 +3,7 @@ marked = require('marked')
 handlebars = require('handlebars')
 
 toHTML = (file) ->
-  marked(files)
+  marked(file)
 
 process = (key, opts) ->
   fstats = fs.lstatSync "./content/#{key}"

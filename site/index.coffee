@@ -17,16 +17,15 @@ hbs = exphbs.create
       frags = this.path.split('/')
       frags[frags.length-1]
 
+app.use (req, res, next) ->
+  res.locals.path = req.originalUrl.replace(/^\//, '')
+  do next
 
 
 app.engine '.hbs', hbs.engine
 
 app.set('view engine', '.hbs');
 app.set('views', "./site/views");
-
-app.use (req, res, next) ->
-  res.locals.path = req.originalUrl.replace(/^\//, '')
-  do next
 
 app.use express.static './public'
 
@@ -44,6 +43,11 @@ app.get '/projects/:id', (req, res) ->
 
 app.get '/resume', (req, res) ->
   res.render 'resume', content: cm('resume.md')
+
+app.get '/resume.html', (req, res) ->
+  res.render 'resume', 
+    layout: 'resume',
+    content: cm('resume.md')
 
 app.get '/blog', (req, res) ->
   res.locals.test = 'hello'
