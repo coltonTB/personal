@@ -1,6 +1,7 @@
 express = require('express')
 exphbs  = require('express-handlebars')
 cm = require '../cm.coffee'
+fs = require 'fs'
 
 app = express()
 
@@ -44,13 +45,21 @@ app.get '/projects/:id', (req, res) ->
 app.get '/resume', (req, res) ->
   res.render 'resume', content: cm('resume.md')
 
-app.get '/resume.html', (req, res) ->
+
+app.get '/dl/resume.html', (req, res) ->
   res.render 'resume', 
     layout: 'resume',
     content: cm('resume.md')
 
-app.get '/blog', (req, res) ->
-  res.locals.test = 'hello'
-  res.render 'index'
+app.get '/dl/resume.pdf', (req, res) ->
+  res.setHeader 'Content-Type', 'application/pdf'
+  fs.createReadStream('./coltonBrownResume.pdf')
+    .pipe(res);
+
+app.get '/dl/resume.md', (req, res) ->
+  res.setHeader 'Content-Type', 'application/text'
+  fs.createReadStream('./content/resume.md')
+    .pipe(res);
+
 
 module.exports = app

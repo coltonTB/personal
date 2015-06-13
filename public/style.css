@@ -136,6 +136,14 @@ ul.navbar li.navbar-link a:hover{
   background-position-x: right;
 }
 
+.resume h1#colton-t-brown{
+  display: none;
+}
+
+.resume h1#colton-t-brown + p{
+  display: none;
+}
+
 .resume h4 a{
   position: relative;
 }

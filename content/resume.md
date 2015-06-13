@@ -1,3 +1,9 @@
+# Colton T. Brown
+*gmail:* 0xcolton | 
+*github:* coltonTB | 
+*web:* coltontbrown.com
+
+
 ## Education
 
 #### Duke University
@@ -15,8 +21,6 @@ Physics (BA)
 1. Extensive experience with HTML5, CSS3, PHP, Redis, MySQL, Bash, Objective-C, and Browserify
 
 
-
-
 ## Projects
 
 #### [Ice-js](https://github.com/coltonTB/ice-js)
@@ -26,6 +30,18 @@ An open-source framework for building isomorphic javascript apps.
 
 > 1. Handles pre-rendering, bootstrapping, and complex routing automatically. 
 > 1. Built with Browserify, React, Express, and Backbone.js
+
+
+#### Sweet-accordion
+> *client: Honey*
+
+A lightweight CSS implementation of a content accordion. Used in the [Honey][honey-chstore] browser extension.
+
+*March 2014*
+
+> 1. A clean-looking, space-saving variation on a traditional UX element.
+> 1. Easily customizable and simple to integrate into existing projects
+> 1. Built with simple HTML and CSS. Compiled with gulp.js
 
 
 #### [Bit-crx](https://github.com/coltonTB/bit-crx)
@@ -41,7 +57,7 @@ A chrome extension that allows you to pay with bitcoin on supported e-commerce s
 
 ## Job History
 
-#### Honey
+#### [Honey][honey-home]
 Pasadena, CA
 
 Full-Stack Developer
@@ -73,7 +89,7 @@ Research Assistant / Programmer
 
 1. I built a user interface in MATLAB that employed image analysis techniques to make the process of identifying and measuring individual brain cells much easier. I'm told the lab techs still use it today.
 
-> 1. Press: [Duke Forward](http://dukeforward.duke.edu/news/duke-neurobiologist-richard-mooney-reveals-some-surprising-parallels-betwee)
+> 1. Press: [Duke Forward][press-dukefwd]
 
 
 ####Duke Department of Physics
@@ -85,6 +101,12 @@ Research Assistant / Programmer
 
 1. I wrote image analysis scripts in MATLAB that collected experimental data from (very) high-speed cameras
 
-> 1. Press: [Scientific American](http://www.scientificamerican.com/podcast/episode/granular-materials-could-thwart-missiles/), [io9](http://io9.com/new-missile-study-reveals-a-terrible-setback-in-fight-a-1697060546), [Popular Science](http://www.popsci.com/physics-proves-grainy-soil-good-stopping-missiles?dom=tw&src=SOC)
+> 1. Press: [Scientific American][press-sciam], [io9][press-io9], [Popular Science][press-popsci]
 
 
+[honey-home]: http://joinhoney.com
+[honey-chstore]: https://chrome.google.com/webstore/detail/honey/bmnlcjabgnpnenekpadlanbbkooimhnj?hl=en-US
+[press-dukefwd]: http://dukeforward.duke.edu/news/duke-neurobiologist-richard-mooney-reveals-some-surprising-parallels-betwee
+[press-sciam]: http://www.scientificamerican.com/podcast/episode/granular-materials-could-thwart-missiles/
+[press-io0]: http://io9.com/new-missile-study-reveals-a-terrible-setback-in-fight-a-1697060546
+[press-popsci]: http://www.popsci.com/physics-proves-grainy-soil-good-stopping-missiles?dom=tw&src=SOC
