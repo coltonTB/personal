@@ -22,6 +22,10 @@ app.use (req, res, next) ->
   res.locals.path = req.originalUrl.replace(/^\//, '')
   do next
 
+app.use (req, res, next) ->
+  res.setHeader 'Access-Control-Allow-Origin', '*.coltontbrown.com'
+  res.setHeader 'Access-Control-Allow-Origin', '*.coltontb.github.io'
+
 
 app.engine '.hbs', hbs.engine
 
