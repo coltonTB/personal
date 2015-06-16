@@ -102,16 +102,6 @@ ul.navbar a{
   text-decoration: none;
 }
 
-ul.navbar li.navbar-link.home a.selected{
-  border-color: rgb(63, 228, 0);
-}
-ul.navbar li.navbar-link.projects a.selected{
-  border-color: rgb(165, 3, 255);
-}
-ul.navbar li.navbar-link.resume a.selected{
-  border-color: rgb(0, 155, 255);
-}
-
 ul.navbar li.navbar-link a:hover{
   border-color: #777;
 }

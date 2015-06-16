@@ -13,7 +13,7 @@ hbs = exphbs.create
   helpers:
     selected: (ctx, opts) ->
       regex = new RegExp('^'+ctx+'(/.*)?$')
-      if regex.test(this.path) then 'selected'
+      if regex.test(this.path) then 'nav-link-selected'
     fragment: (opts) ->
       frags = this.path.split('/')
       frags[frags.length-1]
