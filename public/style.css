@@ -6,8 +6,15 @@ body{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+#bg-canvas{
+  z-index: -1000;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
 .container{
-  max-width: 900px;
+  max-width: 800px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 100px;
@@ -45,12 +52,12 @@ blockquote{
 ul.navbar{
   padding: 75px 0 130px 0;
   text-transform: uppercase;
-  border-bottom: 2px solid #DDD;
+  border-bottom: 1px solid #BBB;
 }
 
 ul.navbar .nav-right{
   float: right;
-  width: 225px;
+  width: 230px;
 }
 
 ul.navbar li.navbar-brand{
@@ -109,9 +116,6 @@ ul.navbar li.navbar-link a:hover{
   border-color: #777;
 }
 
-.header{
-}
-
 .header h1{
   display: inline-block;
   margin: 0;
@@ -161,6 +165,10 @@ ul.navbar li.navbar-link a:hover{
   margin-right: 15px;
 }
 
+.home.content{
+  text-shadow: 0px 0px 3px white;
+}
+
 .resume h1#colton-t-brown{
   display: none;
 }
@@ -189,4 +197,9 @@ ul.navbar li.navbar-link a:hover{
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: right;
+}
+
+
+.projects.content h2{
+  margin: 1.4em 0 0em 0;
 }

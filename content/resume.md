@@ -108,5 +108,5 @@ Research Assistant / Programmer
 [honey-chstore]: https://chrome.google.com/webstore/detail/honey/bmnlcjabgnpnenekpadlanbbkooimhnj?hl=en-US
 [press-dukefwd]: http://dukeforward.duke.edu/news/duke-neurobiologist-richard-mooney-reveals-some-surprising-parallels-betwee
 [press-sciam]: http://www.scientificamerican.com/podcast/episode/granular-materials-could-thwart-missiles/
-[press-io0]: http://io9.com/new-missile-study-reveals-a-terrible-setback-in-fight-a-1697060546
+[press-io9]: http://io9.com/new-missile-study-reveals-a-terrible-setback-in-fight-a-1697060546
 [press-popsci]: http://www.popsci.com/physics-proves-grainy-soil-good-stopping-missiles?dom=tw&src=SOC

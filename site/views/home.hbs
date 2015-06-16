@@ -1,3 +1,38 @@
 <div class="home content">
   {{{content}}}
 </div>
+
+<script type="text/javascript">
+  var canvas = document.getElementById('bg-canvas');
+  var c = canvas.getContext('2d');
+
+  function randOct(){
+    return Math.floor(Math.random()*256);
+  };
+
+  function randColor(){
+    return 'rgb('+randOct()+','+randOct()+','+randOct()+')';
+  };
+
+  function drawRings(x,y){
+    var i = 0;
+    function draw(){
+      if(i>90) return;
+      i++;
+      c.strokeStyle = randColor();
+      c.beginPath();
+      c.arc(x, y, i*2, 0, 2*Math.PI);
+      c.stroke();
+      requestAnimationFrame(draw)
+    };
+    draw();
+  };
+  drawRings(210, 220);
+</script>
+
+<script type="text/javascript">
+  var link_text_esc = "<a href='mailto:0xcolton*x'>0xcolton*x</a>";
+  var link_text = link_text_esc.replace(/\*x/g, '@gmail.com');
+  var el = document.getElementsByClassName('content')[0];
+  el.innerHTML = el.innerHTML.replace('EMAIL_ADDRESS_LINK', link_text)
+</script>
