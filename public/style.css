@@ -57,7 +57,6 @@ ul.navbar{
 
 ul.navbar .nav-right{
   float: right;
-  width: 230px;
 }
 
 ul.navbar li.navbar-brand{
@@ -73,9 +72,21 @@ ul.navbar li.navbar-brand a{
   letter-spacing: 20px;
   background: black;
   padding-left: 12px;
-  width: 425px;
+  width: 435px;
   height: 43px;
   display: inline-block;
+  box-sizing: border-box;
+}
+
+@media(max-width: 860px){
+  ul.navbar .nav-right{
+    float: left;
+    margin-left: 210px;
+  }
+  .container{
+    width: 435px;
+  }
+  .
 }
 
 ul.navbar li.navbar-link{
