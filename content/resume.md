@@ -37,7 +37,7 @@ An open-source framework for building isomorphic javascript apps.
 
 A lightweight CSS implementation of a content accordion. Used in the [Honey][honey-chstore] browser extension.
 
-*March 2014*
+*March 2015*
 
 > 1. A clean-looking, space-saving variation on a traditional UX element.
 > 1. Easily customizable and simple to integrate into existing projects

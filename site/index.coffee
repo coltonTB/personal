@@ -34,21 +34,22 @@ app.get '/', (req, res) ->
   res.render 'home', content: cm('home.md')
 
 app.get '/projects', (req, res) ->
-  res.render 'projects', projects:
-    cm('projects', summarize:true).map (proj) ->
-      {content: proj}
+  res.render 'projects', 
+    content: cm('projects.md')
 
 app.get '/projects/:id', (req, res) ->
-  res.render 'project',
+  res.render 'project', 
+    layout: 'project'
     content: cm("projects/#{req.params.id}.md")
 
 app.get '/resume', (req, res) ->
   res.render 'resume', content: cm('resume.md')
 
 
+
 app.get '/dl/resume.html', (req, res) ->
   res.render 'resume', 
-    layout: 'resume',
+    layout: 'resume-raw-html',
     content: cm('resume.md')
 
 app.get '/dl/resume.pdf', (req, res) ->
@@ -61,5 +62,6 @@ app.get '/dl/resume.md', (req, res) ->
   fs.createReadStream('./content/resume.md')
     .pipe(res);
 
-
 module.exports = app
+
+
