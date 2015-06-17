@@ -1,6 +1,5 @@
 fs = require 'fs'
 marked = require('marked')
-handlebars = require('handlebars')
 
 toHTML = (file) ->
   marked(file)

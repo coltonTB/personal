@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.12.3",
-    "express-handlebars": "^2.0.0",
+    "express-handlebars": "2.0.1",
     "handlebars": "^3.0.3",
     "marked": "^0.3.3",
     "prismic.io": "^1.1.7"
