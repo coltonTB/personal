@@ -1,4 +1,4 @@
-## [Ice.js](/projects/ice-js)
+## [Ice.js](http://coltontb.github.io/ice-js/readme.html)
 
 *April 2015 - Present*
 

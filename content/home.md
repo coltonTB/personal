@@ -1,4 +1,3 @@
-<!-- ![colton_brown](/images/profile150.jpeg "me") -->
 ## Hello.
 
 ###*My name is Colton Brown.*

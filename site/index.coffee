@@ -23,8 +23,8 @@ app.use (req, res, next) ->
   do next
 
 app.use (req, res, next) ->
-  if /(.*coltontb\.github\.io)|(.*coltontbrown\.com)/.test req.hostname
-    res.setHeader 'Access-Control-Allow-Origin', "http://#{req.hostname}"
+  if /\.css$|fonts\.js$|fonts.*\.woff2$/.test req.url
+    res.setHeader 'Access-Control-Allow-Origin', '*'
   do next
 
 app.engine '.hbs', hbs.engine

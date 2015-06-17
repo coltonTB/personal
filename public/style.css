@@ -1,8 +1,5 @@
 body{
-  background: #FFF
-}
-
-*{
+  background: #FFF;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -11,6 +8,7 @@ body{
   position: absolute;
   left: 0;
   top: 0;
+  opacity: 0.5;
 }
 
 .container{
@@ -39,10 +37,31 @@ body{
   padding-right: 20px;
 }
 
+.container .project-pg-header{
+  padding-bottom: 25px;
+  padding-top: 8px;
+  border-bottom: 1px solid #ddd;
+}
 
-.content .project-nav{
-  position: absolute;
-  top: -70px;
+.container .project-pg-header .name{
+  font-family: 'Oswald';
+  background: black;
+  color: #ddd;
+  letter-spacing: 6px;
+  padding-left: 14px;
+  padding-right: 10px;
+}
+.container .project-pg-header .name:hover{
+  text-decoration: none;
+}
+.container .project-pg-header .projects{
+  float: right;
+}
+.container .project-pg-header .projects a{
+  font-size: 1.1em;
+}
+.container .project-pg-header .projects .project-name{
+  font-weight: 100;
 }
 
 blockquote{
