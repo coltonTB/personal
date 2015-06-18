@@ -3,16 +3,9 @@
 ###*My name is Colton Brown.*
 I'm a software developer currently living in Los Angeles. I'm passionate about bringing inspired designs and products to life through code. I also enjoy building developer tools and contributing to the open-source community. My current focus is working with frontend and backend javascript technologies.
 
-<br/>
-
 For freelance work, contact me at EMAIL_ADDRESS_LINK. 
 
-<br/>
-
 For examples of past work, check out [/projects](/projects)
-
-<br/>
-
 
 [![github](/images/github.png)][github]
 [![linkedin](/images/linkedin.png)][linkedin]

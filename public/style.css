@@ -8,7 +8,7 @@ body{
   position: absolute;
   left: 0;
   top: 0;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .container{
@@ -37,13 +37,16 @@ body{
   padding-right: 20px;
 }
 
-.container .project-pg-header{
+.project-pg-header{
   padding-bottom: 25px;
   padding-top: 8px;
   border-bottom: 1px solid #ddd;
 }
+.project-pg-header a{
+  text-decoration: none;
+}
 
-.container .project-pg-header .name{
+.project-pg-header .name{
   font-family: 'Oswald';
   background: black;
   color: #ddd;
@@ -51,17 +54,27 @@ body{
   padding-left: 14px;
   padding-right: 10px;
 }
-.container .project-pg-header .name:hover{
+.project-pg-header .name:hover{
   text-decoration: none;
 }
-.container .project-pg-header .projects{
+.project-pg-header .projects{
   float: right;
 }
-.container .project-pg-header .projects a{
+.project-pg-header .projects a{
   font-size: 1.1em;
 }
-.container .project-pg-header .projects .project-name{
+.project-pg-header .projects .project-name{
   font-weight: 100;
+}
+
+.project-pg-nav{
+  padding: 10px 0;
+  font-weight: 100;
+}
+.project-pg-nav a{
+  margin-right: 20px;
+  display: inline-block;
+  text-decoration: none;
 }
 
 blockquote{
@@ -72,6 +85,10 @@ ul.navbar{
   padding: 75px 0 130px 0;
   text-transform: uppercase;
   border-bottom: 1px solid #BBB;
+}
+
+ul.navbar li:before{
+  display: none;
 }
 
 ul.navbar .nav-right{
@@ -189,11 +206,15 @@ ul.navbar li.navbar-link a:hover{
   text-shadow: 0px 0px 3px white;
 }
 
-.resume h1#colton-t-brown{
+.resume p, .projects p{
+  margin: 0.15em 0;
+}
+
+.resume:not(.raw) h1#colton-t-brown{
   display: none;
 }
 
-.resume h1#colton-t-brown + p{
+.resume:not(.raw) h1#colton-t-brown + p{
   display: none;
 }
 
@@ -205,7 +226,7 @@ ul.navbar li.navbar-link a:hover{
   text-decoration: underline;
 }
 
-.resume h4 a:after{
+.resume h4 a:after, .projects h2 a:after{
   content: '';
   width: 18px;
   height: 10px;
@@ -219,7 +240,8 @@ ul.navbar li.navbar-link a:hover{
   background-position-x: right;
 }
 
-
 .projects.content h2{
   margin: 1.4em 0 0em 0;
+  display: inline-block;
+  position: relative;
 }

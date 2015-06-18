@@ -4,21 +4,24 @@ em{
 }
 
 a{
-  text-decoration: none;
-  /*font-weight: 300;*/
   color: black;
 }
 
 a:hover{
   text-decoration: underline;
+  color: #666;
+}
+
+h1 a, h2 a, h3 a, h4 a{
+  text-decoration: none;
 }
 
 strong{
-  font-weight: 500;
+  font-weight: 600;
 }
 
 p{
-  margin: 0.15em 0;
+  margin: 1em 0;
   line-height: 1.5em;
 }
 
@@ -50,23 +53,40 @@ h4>a{
   font-weight: 600;
 }
 
-ol{
+:not(pre) > pre[class*="language-"], 
+pre > code[class*="language-"]{
+  background: #fafafa;
+  margin: 1em 0;
+  border-radius: 3px;
+}
+
+:not(pre) > code{
+  font-size: 1.1em;
+  padding: 2px 6px;
+  border-radius: 3px;
+  background-color: #fafafa;
+}
+
+ol, ul{
   margin: 0.6em 0;
-  list-style: none;
   padding: 0 0 0 1.4em;
   font-weight: 300;
   letter-spacing: 0.06em;
+}
+
+ul{
+  list-style: none;
 }
 
 li {
   margin: 0.3em 0;
 }
 
-ol li{
+ul li{
   position: relative;
 }
 
-ol li:before{
+ul li:before{
   content: '>';
   color: gray;
   position: absolute;
