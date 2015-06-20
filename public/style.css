@@ -166,6 +166,7 @@ ul.navbar li.navbar-link a:hover{
   color: #888;
   font-weight: 100;
   margin: 0 2px;
+  text-decoration: none;
 }
 
 .header .download a:hover{
