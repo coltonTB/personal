@@ -3,6 +3,16 @@ body{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+h2 em:before{
+  content: '*';
+  position: absolute;
+  left: -20px;
+  top: 8px;
+  font-size: 45px;
+  font-weight: 100;
+  color: gold;
+}
+
 #bg-canvas{
   z-index: -1000;
   position: absolute;
@@ -68,7 +78,7 @@ body{
 }
 
 .project-pg-nav{
-  padding: 10px 0;
+  margin: 10px 0;
   font-weight: 100;
 }
 .project-pg-nav a{

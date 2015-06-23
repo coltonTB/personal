@@ -18,7 +18,7 @@ Physics (BA)
 ## Skills
 
 + Expert in full-stack application development using Node, Express, Backbone, and React
-+ Extensive experience with HTML5, CSS3, PHP, Redis, MySQL, Bash, Objective-C, and Browserify
++ Extensive experience with HTML5, CSS3, PHP, Redis, MySQL, Bash, and Objective-C
 
 
 ## Projects
