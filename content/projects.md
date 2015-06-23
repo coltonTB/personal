@@ -4,18 +4,12 @@
 
 A framework for developers that makes building single-page javascript applications easier and better.
 
-## Honey Web Experience
 
-*April 2015*
+## [Bit-crx](http://github.com/coltonTB/bit-crx)
 
-Web pages for Honey built with the Ice.js framework
+*February - May 2014*
 
-
-## Quest
-
-*January - March 2015*
-
-A social network built around the online shopping experience. Allows users to find each other deals, bookmark products, and monitor pricing across the web. Built using the Ice.js framework.
+A chrome extension that allows you to pay with bitcoin on supported e-commerce sites.
 
 
 ## [Accordion](http://coltontb.github.io/accordion)
@@ -24,20 +18,26 @@ A social network built around the online shopping experience. Allows users to fi
 
 A lightweight UX component built with HTML, CSS, and a *tiny* bit of javascript.
 
+## [Quest](./projects/quest)
+
+*January - March 2015*
+
+A social network built around the online shopping experience. Allows users to find each other deals, bookmark products, and monitor pricing across the web. Built using the Ice.js framework.
+
+
+## [Honey Web](./projects/honey-web)
+
+*January 2014 - May 2015*
+
+I built numerous dynamic web pages using various languages and technologies in my time at Honey. 
+
+
 
 ## [Graffiti](http://github.com/coltonTB/graffiti)
 
 *February 2015*
 
 A command-line utility for printing text
-
-
-## [Bit-crx](http://github.com/coltonTB/bit-crx)
-
-*February - May 2014*
-
-A chrome extension that allows you to pay with bitcoin on supported e-commerce sites.
-
 
 ## Cache
 

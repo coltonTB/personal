@@ -44,6 +44,7 @@ app.get '/projects', (req, res) ->
 app.get '/projects/:id', (req, res) ->
   res.render 'project', 
     layout: 'project'
+    project_name: req.params.id
     content: cm("projects/#{req.params.id}.md")
 
 app.get '/resume', (req, res) ->
