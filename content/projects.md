@@ -63,7 +63,7 @@ A 'magic-8-ball' style iPhone application tailored for the BioPharmaceutical ind
 
 *2011*
 
-An image analysis tool designed for the study of brain cell activity in [zebra finches][zebra-finch] (R. Mooney's Lab, Duke University department of Neurobiology). Greatly improved the ease and efficiency of collecting this crucial.
+An image analysis tool designed for the study of brain cell activity in [zebra finches][zebra-finch] (R. Mooney's Lab, Duke University department of Neurobiology). Greatly improved the ease and efficiency of collecting this crucial data.
 
 [honey-link]: http://www.joinhoney.com
 [zebra-finch]: https://en.wikipedia.org/wiki/Zebra_finch
