@@ -1,15 +1,16 @@
-## [Browser Mock](http://coltontb.github.io/browser-mock)
-
-*June 2015*
-
-Pure css implementation of a browser mockup for UX presentations
-
-
 ## *[Ice.js](http://coltontb.github.io/ice-js)*
 
 *April 2015 - Present*
 
-A framework for developers that makes building single-page javascript applications easier and better.
+A framework for building isomorphic single-page javascript apps with Express.js
+
+
+## [Pay with Bitcoin](./projects/pay-with-bitcoin)
+
+*February - May 2014*
+
+A secure API and client application that allows users to pay with bitcoin on supported e-commerce sites.
+
 
 ## [Accordion](http://coltontb.github.io/accordion)
 
@@ -17,11 +18,12 @@ A framework for developers that makes building single-page javascript applicatio
 
 A lightweight UX component built with HTML, CSS, and a *tiny* bit of javascript. Used in the [Honey][honey-link] browser extension
 
-## [Pay with Bitcoin](./projects/pay-with-bitcoin)
 
-*February - May 2014*
+## [Browser Mock](http://coltontb.github.io/browser-mock)
 
-A secure API and client application that allows users to pay with bitcoin on supported e-commerce sites.
+*June 2015*
+
+Pure css implementation of a browser mockup for UX presentations
 
 
 ## [Quest](./projects/quest)
