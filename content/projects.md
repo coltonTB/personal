@@ -28,7 +28,7 @@ Pure css implementation of a browser mockup for UX presentations
 
 ## [Quest](./projects/quest)
 
-*January - March 2015*
+*January - April 2015*
 
 A social network built around the online shopping experience. Allows users to find each other deals, bookmark products, and monitor pricing across the web. Built using the Ice.js framework.
 
@@ -44,7 +44,7 @@ I built numerous dynamic web pages using various languages and technologies in m
 
 *February 2015*
 
-A command-line utility for printing text
+Write messages in your github commit history graph
 
 
 ## streetRoulette
