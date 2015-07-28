@@ -3,7 +3,6 @@
 *github:* coltonTB | 
 *web:* coltontbrown.com
 
-
 ## Education
 
 #### Duke University
@@ -23,13 +22,22 @@ Physics (BA)
 
 ## Projects
 
+#### SeekPanda MVP
+A Web portal that connects customers to chinese translators for hire
+
+*July 2015 - Present (freelance)*
+
++ Build with React and Flux
+
+
 #### [Ice-js](http://coltonTB.github.io/ice-js)
 A framework for building single-page javascript apps with Express.js
 
 *April 2015 - Present*
 
 > + Handles pre-rendering, bootstrapping, and complex routing automatically
-> + Built with Browserify, React, Express, and Backbone.js
+
++ Built with Browserify, React, Express, and Backbone.js
 
 
 #### [Pay with Bitcoin](https://github.com/coltonTB/pay-with-bitcoin)
@@ -40,7 +48,8 @@ A browser extension and supporting API that allows users to pay with bitcoin on 
 *February - May 2014*
 
 > + Leverages an event-driven Node.js architecture for performance and security. 
-> + Built with Node.js, Redis, Express, mySQL, and Backbone.js
+
++ Built with Node.js, Redis, Express, mySQL, and Backbone.js
 
 #### [Accordion](http://coltonTB.github.io/accordion)
 > *client: Honey*
@@ -50,7 +59,8 @@ A lightweight CSS implementation of a content accordion. Used in the [Honey][hon
 *March 2015*
 
 > + Easily customizable and simple to integrate into existing projects
-> + Built with HTML, Stylus and Coffeescript via Gulp
+
++ Built with HTML, Stylus and Coffeescript via Gulp
 
 
 ## Job History
@@ -88,14 +98,14 @@ Research Assistant / Programmer
 > + Press: [Duke Forward][press-dukefwd]
 
 
-####Duke Department of Physics
-Durham, NC 
+> ####Duke Department of Physics
+> Durham, NC 
 
-Research Assistant / Programmer
+> Research Assistant / Programmer
 
-*May-July 2011*
+> *May-July 2011*
 
-+ I wrote image analysis scripts in MATLAB that collected experimental data from an ultra-high-speed camera. This data was later [published][press-scireview] in a scientific journal
+> + I wrote image analysis scripts in MATLAB that collected experimental data from an ultra-high-speed camera. This data was later [published][press-scireview] in a scientific journal
 
 > + Press: [Scientific American][press-sciam], [io9][press-io9], [Popular Science][press-popsci]
 

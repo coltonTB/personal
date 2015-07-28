@@ -217,17 +217,20 @@ ul.navbar li.navbar-link a:hover{
   text-shadow: 0px 0px 3px white;
 }
 
+.resume ul{
+  margin: 0.2em 0;
+}
+
 .resume p, .projects p{
   margin: 0.15em 0;
 }
 
-.resume:not(.raw) h1#colton-t-brown{
-  display: none;
-}
-
+.resume:not(.raw) h1#colton-t-brown,
 .resume:not(.raw) h1#colton-t-brown + p{
   display: none;
 }
+
+.resume:not(.raw) h1#colton-t-brown + p + a{
 
 .resume h4 a{
   position: relative;
