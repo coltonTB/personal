@@ -9,4 +9,4 @@ app.use (req, res, next) ->
 app.use require('./site')
 
 app.listen 8080, (req, res) ->
-  console.log('listening!')
+  console.log('listening on port 8080')

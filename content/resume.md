@@ -17,14 +17,14 @@ Physics (BA)
 
 ## Skills
 
-+ Expert in full-stack javascript development using Node, Express, Backbone, and React
++ Expert in full-stack javascript development using Node, Express, Backbone, and React+Flux
 + Extensive experience with HTML5, CSS3, CoffeeScript, PHP, Redis, MySQL, Bash, and Objective-C
 
 
 ## Projects
 
 #### [Ice-js](http://coltonTB.github.io/ice-js)
-A framework for building isomorphic single-page javascript apps with Express.js
+A framework for building single-page javascript apps with Express.js
 
 *April 2015 - Present*
 
@@ -35,12 +35,12 @@ A framework for building isomorphic single-page javascript apps with Express.js
 #### [Pay with Bitcoin](https://github.com/coltonTB/pay-with-bitcoin)
 > *client: Honey*
 
-A chrome extension that allows you to pay with bitcoin on supported e-commerce sites
+A browser extension and supporting API that allows users to pay with bitcoin on supported e-commerce sites.
 
 *February - May 2014*
 
-> + Leverages an event-driven architecture for performance and security. 
-> + Built with Redis, Express, mySQL, and Backbone.js
+> + Leverages an event-driven Node.js architecture for performance and security. 
+> + Built with Node.js, Redis, Express, mySQL, and Backbone.js
 
 #### [Accordion](http://coltonTB.github.io/accordion)
 > *client: Honey*
@@ -62,9 +62,9 @@ Full-Stack Developer
 
 *July 2013 - May 2015*
 
-+ As the company's first full-time engineer, I built the foundation of our platform, paving the way for growth and monetization
-+ I worked closely with the design team to develop a compelling user experience
-+ I implemented a custom site architecture that rendered pages efficiently, supported complex UI features, and allowed our dynamic content to SEO well
++ As the company's first full-time engineer, I built the foundation of our web platform in PHP and MySQL, paving the way for growth and monetization
++ I worked closely with the design team to develop compelling web experiences in HTML and CSS
++ I implemented a custom site architecture in Node.js and React that rendered pages efficiently, supported complex UI features, and allowed dynamic content to SEO well
 
 #### Kymanox
 Durham, NC
@@ -73,8 +73,8 @@ iOS Developer
 
 *May - August 2012*
 
-+ I built and released the company's first iPhone game with a heavy emphasis on animation
-+ I created a mobile-optimized front-end for one of the company's key web products
++ I built and released the company's first iPhone game with a heavy emphasis on animation using Objective-C with CoreAnimation.
++ I created a mobile-optimized front-end for one of the company's key web products using HTML and CSS with ASP.net
 
 #### Duke Neurobiology
 Durham, NC
@@ -83,7 +83,7 @@ Research Assistant / Programmer
 
 *Nov 2011 - May 2012*
 
-+ I built a MATLAB user interface that greatly simplified the process of identifying and measuring brain cell activity in living songbirds. I'm told the lab technicians still use it today
++ I built a desktop graphical user interface that greatly simplified the process of identifying and measuring brain cell activity in living songbirds. I'm told the lab technicians still use it today
 
 > + Press: [Duke Forward][press-dukefwd]
 
