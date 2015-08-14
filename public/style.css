@@ -13,13 +13,19 @@ h2 em:before{
   color: gold;
 }
 
+.site-plug{
+  padding-left: 10px;
+}
 .site-plug:before {
   content: '*';
-  font-size: 3.2em;
-  line-height: 0em;
+  color: #666;
+  font-size: 3em;
+  line-height: 0;
   position: relative;
-  top: 15px;
+  top: 13px;
+  right: 2px;
   font-weight: 100;
+  float: left;
 }
 
 #bg-canvas{

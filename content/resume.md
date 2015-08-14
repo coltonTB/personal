@@ -107,6 +107,9 @@ Research Assistant / Programmer
 + Press: [Scientific American][press-sciam], [io9][press-io9], [Popular Science][press-popsci]
 </div>
 
+## Hobbies
++ In addition to coding, I love making and listening to electronic music, hiking, camping, traveling, and skateboarding
+
 [honey-home]: http://joinhoney.com
 [honey-chstore]: https://chrome.google.com/webstore/detail/honey/bmnlcjabgnpnenekpadlanbbkooimhnj?hl=en-US
 [press-dukefwd]: http://dukeforward.duke.edu/news/duke-neurobiologist-richard-mooney-reveals-some-surprising-parallels-betwee
