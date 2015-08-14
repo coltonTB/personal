@@ -13,6 +13,15 @@ h2 em:before{
   color: gold;
 }
 
+.site-plug:before {
+  content: '*';
+  font-size: 3.2em;
+  line-height: 0em;
+  position: relative;
+  top: 15px;
+  font-weight: 100;
+}
+
 #bg-canvas{
   z-index: -1000;
   position: absolute;

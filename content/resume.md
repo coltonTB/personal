@@ -3,65 +3,61 @@
 *github:* coltonTB | 
 *web:* coltontbrown.com
 
+<div class="pdf-only site-plug">
+For links and demos, check out the web version at coltontbrown.com/resume
+</div>
+
 ## Education
 
 #### Duke University
 
-Computer Science (BA)
-
-Physics (BA)
-
-*Class of 2013*
+Computer Science (BA) + Physics (BA)
 
 
 ## Skills
 
-+ Expert in full-stack javascript development using Node, Express, Backbone, and React+Flux
++ Expert in full-stack javascript development using Node, Express, Backbone, React and Flux
 + Extensive experience with HTML5, CSS3, CoffeeScript, PHP, Redis, MySQL, Bash, and Objective-C
 
 
 ## Projects
 
-#### SeekPanda MVP
-A Web portal that connects customers to chinese translators for hire
+#### SeekPanda.com
+A Web portal that makes it easy to hire a professional translator
 
 *July 2015 - Present (freelance)*
 
-+ Build with React and Flux
++ Features user onboarding, editable user profiles, and a dynamic hiring dashboard
++ Built the front-end with React and Flux on a 6-week timeline
 
 
 #### [Ice-js](http://coltonTB.github.io/ice-js)
-A framework for building single-page javascript apps with Express.js
+A front-end framework that simplifies building javascript apps with React, Backbone and Express
 
-*April 2015 - Present*
+*April 2015 - Present* <span class="pdf-only">*(open-source)*</span>
 
-> + Handles pre-rendering, bootstrapping, and complex routing automatically
-
++ Baked-in support for page pre-rendering, data bootstrapping, and complex routing
 + Built with Browserify, React, Express, and Backbone.js
 
 
 #### [Pay with Bitcoin](https://github.com/coltonTB/pay-with-bitcoin)
-> *client: Honey*
+<span class="site-only">*client: Honey*</span>
 
 A browser extension and supporting API that allows users to pay with bitcoin on supported e-commerce sites.
 
-*February - May 2014*
+*February - May 2014* <span class="pdf-only">*(client: Honey)*</span>
 
-> + Leverages an event-driven Node.js architecture for performance and security. 
-
-+ Built with Node.js, Redis, Express, mySQL, and Backbone.js
++ Implements a full-stack, event-driven architecture for performance and security. 
++ Built the backend with Node.js, Redis, Express, and mySQL; Built the front-end with Backbone.js
 
 #### [Accordion](http://coltonTB.github.io/accordion)
-> *client: Honey*
+<span class="site-only">*client: Honey*</span>
 
 A lightweight CSS implementation of a content accordion. Used in the [Honey][honey-chstore] browser extension
 
-*March 2015*
+*March 2015* <span class="pdf-only">*(client: Honey)*</span>
 
-> + Easily customizable and simple to integrate into existing projects
-
-+ Built with HTML, Stylus and Coffeescript via Gulp
-
++ An animated, customizable UI component built with HTML, CSS, and a few lines of JS
 
 ## Job History
 
@@ -72,9 +68,9 @@ Full-Stack Developer
 
 *July 2013 - May 2015*
 
-+ As the company's first full-time engineer, I built the foundation of our web platform in PHP and MySQL, paving the way for growth and monetization
-+ I worked closely with the design team to develop compelling web experiences in HTML and CSS
-+ I implemented a custom site architecture in Node.js and React that rendered pages efficiently, supported complex UI features, and allowed dynamic content to SEO well
++ As the company's first full-time engineer, I built the foundation of our web platform in PHP and MySQL, which now supports multiple production systems
++ I worked closely with the design team to improve our site's look and feel, then implemented the designs in pixel-perfect HTML and CSS
++ I developed a custom site architecture with Node.js and React that renders pages efficiently, supports complex UI features, and allows dynamic content to SEO well
 
 #### Kymanox
 Durham, NC
@@ -93,22 +89,23 @@ Research Assistant / Programmer
 
 *Nov 2011 - May 2012*
 
-+ I built a desktop graphical user interface that greatly simplified the process of identifying and measuring brain cell activity in living songbirds. I'm told the lab technicians still use it today
++ I built a MATLAB graphical user interface that greatly simplified the process of identifying and measuring brain cell activity in living songbirds. I'm told the lab technicians still use it today
 
-> + Press: [Duke Forward][press-dukefwd]
+<div class="site-only">
++ Press: [Duke Forward][press-dukefwd]
 
 
-> ####Duke Department of Physics
-> Durham, NC 
+####Duke Department of Physics
+Durham, NC 
 
-> Research Assistant / Programmer
+Research Assistant / Programmer
 
-> *May-July 2011*
+*May-July 2011*
 
-> + I wrote image analysis scripts in MATLAB that collected experimental data from an ultra-high-speed camera. This data was later [published][press-scireview] in a scientific journal
++ I wrote image analysis scripts in MATLAB that collected experimental data from an ultra-high-speed camera. This data was later [published][press-scireview] in a scientific journal
 
-> + Press: [Scientific American][press-sciam], [io9][press-io9], [Popular Science][press-popsci]
-
++ Press: [Scientific American][press-sciam], [io9][press-io9], [Popular Science][press-popsci]
+</div>
 
 [honey-home]: http://joinhoney.com
 [honey-chstore]: https://chrome.google.com/webstore/detail/honey/bmnlcjabgnpnenekpadlanbbkooimhnj?hl=en-US
