@@ -1,3 +1,10 @@
+## [Channel Browser](http://coltontbrown.com/projects/channelbrowser)
+
+*August 25 - 26*
+
+A way to browse the Vimeo API using React and Flux, designed in Sketch
+
+
 ## *[Ice.js](http://coltontb.github.io/ice-js)*
 
 *April 2015 - Present*
