@@ -1,6 +1,6 @@
 ## About Me
 
-I'm a software developer at Uber in New York City. I'm passionate about bringing inspired designs and products to life through code. I also enjoy building developer tools and contributing to the open-source community. My current focus is working with frontend and backend javascript technologies.
+I'm a software developer in New York City. I'm passionate about bringing inspired designs and products to life, and I also enjoy building developer tools and contributing to the open-source community.
 
 For freelance work, contact me at EMAIL_ADDRESS_LINK. 
 
