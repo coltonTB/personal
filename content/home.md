@@ -2,8 +2,6 @@
 
 I'm a software developer in New York City. I'm passionate about bringing inspired designs and products to life, and I also enjoy building developer tools and contributing to the open-source community.
 
-For freelance work, contact me at EMAIL_ADDRESS_LINK. 
-
 For examples of past work, check out [/projects](/projects)
 
 [![github](/images/github.png)][github]
