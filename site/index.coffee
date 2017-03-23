@@ -36,6 +36,9 @@ app.use express.static './public'
 
 app.get '/', (req, res) ->
   res.render 'home', content: cm('home.md')
+  
+app.get '/health', (req, res) ->
+  res.html 'OK'
 
 app.get '/projects', (req, res) ->
   res.render 'projects', 
