@@ -1,4 +1,4 @@
-## [Channel Browser](http://coltontbrown.com/projects/channelbrowser)
+## [Channel Browser](./projects/channelbrowser)
 
 *August 25 - 26*
 
