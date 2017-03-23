@@ -1,10 +1,10 @@
 # Colton T. Brown
 *gmail:* 0xcolton | 
 *github:* coltonTB | 
-*web:* coltontbrown.com
+*web:* coltonbrown.co
 
 <div class="pdf-only site-plug">
-For links and demos, check out the web version at coltontbrown.com/resume
+For links and demos, check out the web version at coltonbrown.co/resume
 </div>
 
 ## Education
@@ -87,7 +87,7 @@ A front-end framework that simplifies building javascript apps with React, Backb
 + Built with Browserify, React, Express, and Backbone.js
 
 
-#### Many more projects at [coltontbrown.com/projects](http://www.coltontbrown.com/projects)
+#### Many more projects at [coltonbrown.co/projects](http://www.coltonbrown.co/projects)
 
 
 
