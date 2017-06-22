@@ -22,6 +22,14 @@ Computer Science (BA) + Physics (BA)
 
 ## Job History
 
+#### Freelancer
+
+Brooklyn, New York
+
+Web design and development
+
+*April 2017 - Present*
+
 #### [Uber Technologies][uber-home]
 
 New York, New York
