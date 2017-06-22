@@ -28,7 +28,7 @@ New York, New York
 
 Software Engineer
 
-*November 2015 - Present*
+*November 2015 - April 2017*
 
 + Specializing in web development on the Uber Everything team
 
