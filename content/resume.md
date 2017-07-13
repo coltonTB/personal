@@ -30,7 +30,7 @@ April 2017 - Present
 
 *Brooklyn, New York*
 
-Web design and development
++ Web design and development
 
 #### [Uber Technologies][uber-home]
 
@@ -40,7 +40,7 @@ November 2015 - April 2017
 
 *New York, New York*
 
-+ Specializing in web development on the Uber Everything team
++ Building things for UberEATS and UberRUSH
 
 
 #### [SeekPanda][seekpanda-home]
