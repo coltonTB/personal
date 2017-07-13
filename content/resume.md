@@ -72,20 +72,20 @@ August - September 2015
 
 May - August 2012
 
-*Durham, NC*
-
 *iOS Developer*
+
+*Durham, NC*
 
 + I built and launched the company’s first iPhone game, with an emphasis on animation and user experience.
 + I also created a mobile-optimized front-end for one of the company's key web products, and served as a project manager for some offshore clients.
 
 #### Duke Neurobiology
 
-Durham, NC
+Nov 2011 - May 2012
 
 *Research Assistant / Programmer*
 
-*Nov 2011 - May 2012*
+*Durham, NC*
 
 + I built a user interface in MATLAB that greatly simplified the process of identifying and measuring brain cell activity in living songbirds. I'm told the lab technicians still use it today
 
