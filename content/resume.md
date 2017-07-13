@@ -22,43 +22,46 @@ Computer Science (BA) + Physics (BA)
 
 ## Job History
 
-#### Freelancer
+#### Freelance
 
-Brooklyn, New York
+April 2017 - Present
+
+*Creative Technologist*
+
+*Brooklyn, New York*
 
 Web design and development
 
-*April 2017 - Present*
-
 #### [Uber Technologies][uber-home]
 
-New York, New York
+November 2015 - April 2017
 
-Software Engineer
+*Full-Stack Software Engineer*
 
-*November 2015 - April 2017*
+*New York, New York*
 
 + Specializing in web development on the Uber Everything team
 
 
 #### [SeekPanda][seekpanda-home]
 
-Beijing, China
+August - September 2015
 
-Freelance Developer *remote*
+*Contract Developer (remote)*
 
-*August - September 2015*
+*Beijing, China*
 
 + I built an MVP web portal for hiring foreign language interpreters, featuring interactive onboarding, interpreter profiles, and multiple dashboards.
 + I used React and Flux to build the front-end, helped produce UI/UX mockups using Sketch, and shared a significant role in designing the REST API.
 
 
 #### [Honey][honey-home]
-Pasadena, CA
 
-Full-Stack Developer
+August - September 2015
 
-*July 2013 - May 2015*
+*Full-Stack Developer*
+
+*Pasadena, CA*
 
 + As the company's first full-time engineer, I built the foundation of Honey's web platform, paving the way for growth and monetization.
 + I designed and built a bitcoin payment feature which featured a fully event-driven javascript architecture using Node, Redis, and Backbone.
@@ -66,19 +69,21 @@ Full-Stack Developer
 
 
 #### Kymanox
-Durham, NC
 
-iOS Developer
+May - August 2012
 
-*May - August 2012*
+*Durham, NC*
+
+*iOS Developer*
 
 + I built and launched the company’s first iPhone game, with an emphasis on animation and user experience.
 + I also created a mobile-optimized front-end for one of the company's key web products, and served as a project manager for some offshore clients.
 
 #### Duke Neurobiology
+
 Durham, NC
 
-Research Assistant / Programmer
+*Research Assistant / Programmer*
 
 *Nov 2011 - May 2012*
 
@@ -95,7 +100,7 @@ A front-end framework that simplifies building javascript apps with React, Backb
 + Built with Browserify, React, Express, and Backbone.js
 
 
-#### Many more projects at [coltonbrown.co/projects](http://www.coltonbrown.co/projects)
+#### See more projects at [coltonbrown.co/projects](http://www.coltonbrown.co/projects)
 
 
 
