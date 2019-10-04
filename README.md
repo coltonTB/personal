@@ -1,3 +1,2 @@
-# personal
-coltontbrown.com
+# coltonbrown.co
 
